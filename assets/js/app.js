@@ -40,12 +40,15 @@ productInput.focus()
 
 
 
+
+
 function addProductFinish(event){
 event.preventDefault()
 const data = addProduct()
 const newHTML = generateHTML(data)
 renderHTML(newHTML)
 clearForm()
+
 }
 
 
